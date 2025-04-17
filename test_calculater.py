@@ -1,6 +1,8 @@
-import Calculater
+from Calculater import adding
 def test_cases():
-    assert(2,3)
+    assert(adding(2,3)) == 5
 
-test_cases()
-print("all the cases passed")
+
+if __name__ == "__main__":
+    test_cases()
+    print("passed")
